@@ -6,8 +6,15 @@
   justify-content: space-between;
   color: #fff;
 }
+header {
+  background-image: url("https://www.365dropship.com/wp-content/uploads/2020/06/hero-1.jpg");
+  height: 937px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .header-main {
   background-color: #23293e;
+  opacity: 0.8;
 }
 .header-left {
   padding-top: 10px;
