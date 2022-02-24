@@ -45,3 +45,43 @@ header {
   color: white;
   font-size: 1rem;
 }
+.wrapper {
+  position: absolute;
+  min-width: 900px;
+  width: 955px;
+  height: 701px;
+  text-align: center;
+  align-items: center;
+  top: calc(50% - 150px);
+  left: calc(50% - 497.5px);
+}
+.wrapcontent {
+  font-size: 2.25rem;
+  color: #fff;
+  z-index: 1;
+  width: 955px;
+  padding: 50px 0 50px 0;
+  background-color: rgba(36, 41, 62, 0.8);
+  opacity: 1;
+  line-height: 1.375rem;
+  transform-origin: 50% 50%;
+  transform: translate(0px, 0px);
+  margin-bottom: 50px;
+}
+.wrapper-img {
+  margin-bottom: 30px;
+}
+#wrapper-h4 {
+  margin-bottom: 8px;
+}
+.sign-up-click {
+  width: 120px;
+  height: 21.992px;
+  color: #fff;
+  font-size: 1rem;
+  background: #61d5df !important;
+  padding: 15px 30px;
+  max-width: 180px;
+  border-radius: 4px;
+  text-align: center;
+}
