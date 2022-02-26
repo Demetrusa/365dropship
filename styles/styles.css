@@ -93,3 +93,45 @@ header {
   text-align: center;
 }
 /* Main content - Heading */
+.page-content {
+  width: 100%;
+  margin-top: 150px;
+  background-color: #cbd1e7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 17px;
+  text-align: center;
+}
+.porto-heading h2 {
+  font-weight: 800;
+  color: #49547d;
+  margin-bottom: 5px;
+  font-size: 1.875rem;
+}
+.porto-u-sub-heading h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  color: rgb(73, 84, 125);
+  margin-bottom: 8px;
+}
+.porto-u-minor-headeing {
+  margin-bottom: 35px;
+  margin-top: 21px;
+}
+#porto-u-minor-headeing-fSpan {
+  font-size: 1.5rem;
+  color: rgb(73, 84, 125);
+  font-weight: 700;
+}
+#porto-u-minor-headeing-2Span {
+  font-size: 1.25rem;
+  color: #49547d;
+}
