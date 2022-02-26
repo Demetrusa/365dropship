@@ -96,9 +96,12 @@ header {
 .page-content {
   width: 100%;
   margin-top: 150px;
-  background-color: #cbd1e7;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid rgb(119, 119, 119);
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
 }
 
 .row {
@@ -134,4 +137,36 @@ header {
 #porto-u-minor-headeing-2Span {
   font-size: 1.25rem;
   color: #49547d;
+}
+.vc-row {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product-box {
+  border: 3px dotted #61d5df;
+  padding: 20px 0;
+  background: #fff;
+  max-width: 344px;
+  width: 100%;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  margin: 35px 15px;
+}
+.stat-number > h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #49547d;
+}
+.stat-text > p {
+  color: #49547d;
+  font-size: 1.125rem;
+  font-weight: 100;
+}
+.stats-desc {
+  padding-left: 15px;
 }
