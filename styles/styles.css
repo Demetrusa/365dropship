@@ -32,7 +32,7 @@ header {
 }
 #nav-menu-li-aSignButton {
   background-color: rgba(0, 0, 0, 0);
-  border-bottom-color: rgb(97, 213, 223);
+
   color: rgb(97, 213, 223);
   border: 2px solid rgb(97, 213, 223);
   padding: 10px;
@@ -172,6 +172,7 @@ header {
 /* how it works styles */
 .how-dropship-works {
   padding-top: 60px;
+  border-bottom: 1px solid rgba(71, 133, 238, 0.2);
 }
 .porto-u-main-heading h2 {
   margin-bottom: 20px;
@@ -194,7 +195,7 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-around;
-  padding: 60 0;
+  padding: 60px 0;
   flex-wrap: wrap;
 }
 .howItWorks-box {
@@ -230,4 +231,15 @@ header {
 }
 strong {
   font-weight: 700;
+}
+.how-it-works-sign {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.how-it-works-sign a {
+  background-color: #61d5df;
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
 }
