@@ -315,3 +315,19 @@ strong {
 #benefits-text-2 {
   padding-top: 60px;
 }
+/* video Frame styles*/
+
+.video-frame {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.frame h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 800;
+  color: #49547d;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
