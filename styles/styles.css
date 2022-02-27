@@ -341,6 +341,7 @@ strong {
 .product-listi {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .dropshit-product h2 {
   font-weight: 800;
@@ -355,4 +356,31 @@ strong {
 .product-boxes {
   border-bottom: 3px solid silver;
   padding: 15px 20px;
+}
+.left-desc img {
+  width: 532px;
+}
+.product-description-desc {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.right-description {
+  width: 540px;
+}
+.right-description h2 {
+  font-size: 1.125rem;
+  color: rgb(73, 84, 125);
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.right-description p {
+  font-size: 0.875rem;
+  color: rgb(73, 84, 125);
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+}
+#second1 {
+  margin-top: 60px;
 }
