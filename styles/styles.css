@@ -100,10 +100,7 @@ header {
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid rgb(119, 119, 119);
-  border-top: hidden;
-  border-left: hidden;
-  border-right: hidden;
+  border-bottom: 1px solid rgba(71, 133, 238, 0.2);
 }
 
 .row {
@@ -189,4 +186,48 @@ header {
   text-align: center;
   align-items: center;
   line-height: 1.375rem;
+}
+.how-it-works {
+  max-width: 1210px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 60 0;
+  flex-wrap: wrap;
+}
+.howItWorks-box {
+  max-width: 255px;
+  border: 1px solid rgba(97, 213, 223, 0.3);
+  height: 100%;
+  height: 369.609px;
+}
+.howItWorks-img {
+  width: 253px;
+  padding-bottom: 15px;
+}
+.howItWorks-content {
+  padding-bottom: 3px;
+}
+.howItWorks-text h3 {
+  font-size: 1rem;
+  color: rgb(73, 84, 125);
+  font-weight: 700 !important;
+  text-align: center;
+  width: 197px;
+}
+
+.howItWorks-text {
+  padding-bottom: 16px;
+}
+.howItWorks-p {
+  padding: 0 28px 28px 28px;
+  font-size: 0.875rem;
+  color: rgb(73, 84, 125);
+  font-stretch: 100%;
+  line-height: 20.02px;
+}
+strong {
+  font-weight: 700;
 }
