@@ -243,3 +243,27 @@ strong {
   padding: 15px 30px;
   border-radius: 4px;
 }
+/* benefits */
+.benefits {
+  padding: 60px 0;
+  border-bottom: 1px solid rgba(71, 133, 238, 0.2);
+}
+.benefit-headings {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+#benefit-main-heading {
+  font-weight: 800;
+  color: #49547d;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.benefit-heading-p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(106, 109, 124);
+}
