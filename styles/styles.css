@@ -172,3 +172,21 @@ header {
 .stats-desc {
   padding-left: 15px;
 }
+/* how it works styles */
+.how-dropship-works {
+  padding-top: 60px;
+}
+.porto-u-main-heading h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: rgb(73, 84, 125);
+  font-weight: 800;
+}
+.porto-u-sub-heading {
+  font-size: 1.25rem;
+  max-width: 1110px;
+  margin-bottom: 16px;
+  text-align: center;
+  align-items: center;
+  line-height: 1.375rem;
+}
