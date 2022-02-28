@@ -541,3 +541,68 @@ strong {
     height: 250px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .porto-heading > h2,
+  .porto-u-sub-heading > h3 {
+    font-size: 15px;
+  }
+  #porto-u-minor-headeing-fSpan {
+    font-size: 12px;
+  }
+  #porto-u-minor-headeing-2Span {
+    font-size: 10px;
+  }
+  .porto-u-main-heading > h2 {
+    font-size: 14px;
+  }
+  .porto-u-sub-heading > p {
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  #benefit-main-heading {
+    font-size: 14px;
+  }
+  .benefit-heading-p {
+    font-size: 12px;
+  }
+  .benefits-text > p {
+    font-size: 12px;
+  }
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .frame > h2 {
+    font-size: 14px;
+  }
+  .dropshit-product > div > h2 {
+    font-size: 15px;
+  }
+  .product-listi {
+    align-items: center;
+  }
+  .product-boxes > img {
+    width: 50px;
+  }
+  .left-desc img {
+    width: 300px;
+  }
+  .right-description {
+    width: 300px;
+  }
+  .right-description > h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .right-description > p {
+    font-size: 12px;
+  }
+  .integrations > div > h2 {
+    font-size: 15px;
+  }
+  .footer-box {
+    align-items: center;
+    text-align: center;
+  }
+}
