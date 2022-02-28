@@ -492,3 +492,52 @@ strong {
   padding: 10px 8px;
   color: rgb(202, 202, 202);
 }
+
+@media only screen and (max-width: 1150px) {
+  iframe {
+    width: 800px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .nav-menu-li {
+    display: none;
+  }
+  .burger-mobile-menu {
+    display: block;
+  }
+  .fas fa-bars {
+    display: block;
+  }
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 25%;
+  }
+  .wrapcontent {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 100px;
+  }
+  .wrapcontent .wrapper-img {
+    width: 100px;
+  }
+  .wrapcontent,
+  .wrapper-img h4,
+  .wrapper-h4 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  iframe {
+    width: 500px;
+    height: 250px;
+  }
+}
