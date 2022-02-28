@@ -446,3 +446,35 @@ strong {
 #text-p3 {
   padding: 10px 0;
 }
+.footer-contact {
+  background-color: rgb(33, 37, 41);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-box {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.footer-logo-img {
+  width: 94px;
+  margin-bottom: 20px;
+}
+#footer-first-text {
+  font-size: 1rem;
+  line-height: 24px;
+  color: #cacaca;
+}
+.footer-box h2 {
+  margin-bottom: 15px;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 600;
+}
+.footer-box a {
+  color: #fff;
+  padding: 6px 0;
+}
