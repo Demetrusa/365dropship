@@ -400,9 +400,11 @@ strong {
 .int-images {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .integration-img {
   opacity: 0.4;
+  padding: 15px;
 }
 /* footer */
 #bcFooter {
@@ -477,4 +479,14 @@ strong {
 .footer-box a {
   color: #fff;
   padding: 6px 0;
+}
+.lower-footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(33, 37, 41);
+  border-top: 1px solid #cacaca73;
+}
+.lower-footer {
+  padding: 10px 8px;
+  color: rgb(202, 202, 202);
 }
