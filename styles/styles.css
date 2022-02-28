@@ -363,6 +363,7 @@ strong {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 .right-description {
   width: 540px;
@@ -414,6 +415,7 @@ strong {
   text-align: center;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .footer-headings a {
   border-bottom: 3px solid rgba(255, 255, 255, 0.315);
