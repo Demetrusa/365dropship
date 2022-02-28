@@ -384,3 +384,24 @@ strong {
 #second1 {
   margin-top: 60px;
 }
+.integrations {
+  padding: 60px 0;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.integrations h2 {
+  font-weight: 800;
+  color: #49547d;
+  margin-bottom: 60px;
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+.int-images {
+  display: flex;
+  justify-content: space-between;
+}
+.integration-img {
+  opacity: 0.4;
+}
