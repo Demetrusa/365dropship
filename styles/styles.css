@@ -605,4 +605,16 @@ strong {
     align-items: center;
     text-align: center;
   }
+  .container {
+    margin-left: 100px;
+  }
+  .wrapper {
+    width: 400px;
+  }
+  .wrapcontent .wrapper-img {
+    width: 50px;
+  }
+  .wrapcontent > h4 {
+    font-size: 12px;
+  }
 }
